@@ -17,5 +17,11 @@ public class HeadorTail{
             }
         }
         System.out.println("Heads: " + rand[0]+ ", Tails: " + rand[1]);
+        if (rand[0]>rand[1]){
+            System.out.println("You won");
+        }
+        else{
+            System.out.println("You lost");
+        }
     }
 }
